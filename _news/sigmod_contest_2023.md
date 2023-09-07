@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:trophy: Won the championship  of <a rel="external nofollow" href="http://sigmod2023contest.eastus.cloudapp.azure.com/index.shtml" target="_blank" >SIGMOD 2023 programming contest</a>! :smiley:
+:trophy: Won the championship  of <a rel="external nofollow" href="https://2023.sigmod.org/sigmod_awards.shtml" target="_blank" >SIGMOD 2023 programming contest</a>! :smiley:
