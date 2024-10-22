@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am now a 4th-year Ph.D student advised by Prof. [Guoliang Li](https://dbgroup.cs.tsinghua.edu.cn/ligl/) at DBGroup, Department of Computer Science and Technology, Tsinghua University. 
+I am now a 5th-year Ph.D student advised by Prof. [Guoliang Li](https://dbgroup.cs.tsinghua.edu.cn/ligl/) at DBGroup, Department of Computer Science and Technology, Tsinghua University. 
 
-My current research focuses on improving query optimization in database with AI techniques.
+My current research focuses on improving query optimization in database with AI techniques and improving data analytics.
 
