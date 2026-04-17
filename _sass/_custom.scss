@@ -1,0 +1,106 @@
+/*******************************************************************************
+ * Personal customizations layered on top of al-folio.
+ * Kept in a single file so the stock theme stays easy to update.
+ ******************************************************************************/
+
+// 1. Accent color — replaces the default purple in light mode with a deeper
+//    muted teal, giving the site a different feel from stock al-folio.
+:root {
+  --global-theme-color: #1F4E79;
+  --global-hover-color: #1F4E79;
+  --accent-rgb: 31, 78, 121;
+}
+
+html[data-theme='dark'] {
+  --accent-rgb: 38, 152, 186;
+}
+
+// 2. Section headings inside page content: a small left accent bar and a bit
+//    more breathing room. Applies to publications years, project categories,
+//    and the `##` headings on the awards / services pages.
+.post > article,
+.publications,
+.projects {
+  h2 {
+    position: relative;
+    padding: 0.25rem 0 0.25rem 0.85rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    border-top: none;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.45rem;
+      bottom: 0.45rem;
+      width: 4px;
+      border-radius: 2px;
+      background: var(--global-theme-color);
+    }
+
+    &:first-child {
+      margin-top: 0.5rem;
+    }
+  }
+
+  h2.category {
+    color: var(--global-text-color);
+    border-top: none;
+    padding-top: 0.25rem;
+  }
+
+  // Publication year headings stay right-aligned (stock al-folio) but get a
+  // subtle accent rule instead of the default grey top border. Drop the left
+  // accent bar here since the year text sits on the opposite side, and
+  // restore a real bottom margin so the first paper no longer sits under the
+  // heading's vertical bar.
+  h2.year {
+    color: var(--global-text-color-light);
+    border-top: 1px solid rgba(var(--accent-rgb), 0.35);
+    padding: 1rem 0 0 0;
+    margin-bottom: 1rem;
+    text-align: right;
+
+    &::before {
+      content: none;
+    }
+  }
+}
+
+// 3. Tables on content pages: subtle header tint and zebra striping so the
+//    awards / services tables read more clearly.
+.post > article table {
+  border-collapse: collapse;
+  margin: 0.75rem 0 1.25rem;
+  width: 100%;
+
+  th {
+    background: rgba(var(--accent-rgb), 0.08);
+    border-bottom: 2px solid rgba(var(--accent-rgb), 0.35);
+    padding: 0.5rem 0.75rem;
+  }
+
+  td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  tbody tr:nth-child(even) td {
+    background: rgba(var(--accent-rgb), 0.03);
+  }
+}
+
+// 4. Profile image on the about page: soften the stock hard corners with a
+//    slightly larger radius and a gentler shadow.
+.profile img {
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+// 5. About-page title: tighten the weight contrast between first/last name.
+.post-header .post-title {
+  letter-spacing: -0.01em;
+}
