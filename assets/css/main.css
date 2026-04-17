@@ -1059,5 +1059,95 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
+/*******************************************************************************
+ * Personal customizations layered on top of al-folio.
+ * Kept in a single file so the stock theme stays easy to update.
+ ******************************************************************************/
+:root {
+  --global-theme-color: #1F4E79;
+  --global-hover-color: #1F4E79;
+  --accent-rgb: 31, 78, 121;
+}
+
+html[data-theme=dark] {
+  --accent-rgb: 38, 152, 186;
+}
+
+.post > article h2,
+.publications h2,
+.projects h2 {
+  position: relative;
+  padding: 0.25rem 0 0.25rem 0.85rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-top: none;
+}
+.post > article h2::before,
+.publications h2::before,
+.projects h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  bottom: 0.45rem;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--global-theme-color);
+}
+.post > article h2:first-child,
+.publications h2:first-child,
+.projects h2:first-child {
+  margin-top: 0.5rem;
+}
+.post > article h2.category,
+.publications h2.category,
+.projects h2.category {
+  color: var(--global-text-color);
+  border-top: none;
+  padding-top: 0.25rem;
+}
+.post > article h2.year,
+.publications h2.year,
+.projects h2.year {
+  color: var(--global-text-color-light);
+  border-top: 1px solid rgba(var(--accent-rgb), 0.35);
+  padding: 1rem 0 0 0;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+.post > article h2.year::before,
+.publications h2.year::before,
+.projects h2.year::before {
+  content: none;
+}
+
+.post > article table {
+  border-collapse: collapse;
+  margin: 0.75rem 0 1.25rem;
+  width: 100%;
+}
+.post > article table th {
+  background: rgba(var(--accent-rgb), 0.08);
+  border-bottom: 2px solid rgba(var(--accent-rgb), 0.35);
+  padding: 0.5rem 0.75rem;
+}
+.post > article table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.post > article table tbody tr:nth-child(even) td {
+  background: rgba(var(--accent-rgb), 0.03);
+}
+
+.profile img {
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+.post-header .post-title {
+  letter-spacing: -0.01em;
+}
 
 /*# sourceMappingURL=main.css.map */
