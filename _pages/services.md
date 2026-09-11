@@ -17,9 +17,11 @@ nav_order: 3
 | KDD | 2022 |
 | CIKM | 2024–2026 |
 | ICML | 2026 |
+| AAAI | 2027 |
 | DATAI @ VLDB | 2025 |
 | JCST (Journal of Computer Science and Technology) | 2022, 2025 |
 | Information Systems | 2023–2025 |
+| Neurocomputing | 2026 |
 
 ## Organizer & Volunteer
 {: style="margin-top: 3rem;"}
