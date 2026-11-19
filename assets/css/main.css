@@ -1141,6 +1141,16 @@ html[data-theme=dark] {
   background: rgba(var(--accent-rgb), 0.03);
 }
 
+.post > article .news table th,
+.post > article .news table td {
+  padding: 0.3rem 0.5rem;
+  vertical-align: top;
+}
+.post > article .news table th {
+  width: 1%;
+  white-space: nowrap;
+}
+
 .profile img {
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
