@@ -2,7 +2,9 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications in reversed chronological order.
+description: >-
+  Publications in reversed chronological order.
+  * Co-first authors (equal contribution); † Corresponding author.
 years: [2027, 2026, 2025, 2024, 2023,2022]
 nav: true
 nav_order: 1

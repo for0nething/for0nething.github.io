@@ -7,25 +7,32 @@ nav: true
 nav_order: 3
 ---
 
-## Conference & Journal Reviewer
+## Program Committee
 
 | Venue | Year(s) |
 |:------|:--------|
-| VLDB | 2026–2027 |
-| ICDE | 2026–2027 |
-| TKDE | 2024–2026 |
 | KDD | 2022 |
 | CIKM | 2024–2026 |
+| ICDE | 2026–2027 |
+| DATAI @ VLDB | 2025 |
+| VLDB | 2026–2027 |
 | ICML | 2026 |
 | AAAI | 2027 |
-| DATAI @ VLDB | 2025 |
+
+## Journal Reviewer
+{: style="margin-top: 3rem;"}
+
+| Venue | Year(s) |
+|:------|:--------|
+| TKDE | 2024–2026 |
 | JCST (Journal of Computer Science and Technology) | 2022, 2025 |
 | Information Systems | 2023–2025 |
 | Neurocomputing | 2026 |
 
-## Organizer & Volunteer
+## Organizer
 {: style="margin-top: 3rem;"}
 
+- **[Third International Workshop on LLMVDB: Data Infrastructure for Agentic AI @ ICDE 2027](https://llmvdb3.github.io/)** — Co-chair
 - **ACM SIGMOD 2024 Programming Contest** — Organizer
 - **ACM SIGMOD 2021** — Outstanding Volunteer
 

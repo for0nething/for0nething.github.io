@@ -93,6 +93,20 @@ html[data-theme='dark'] {
   }
 }
 
+// Keep news dates on one line and rows compact.
+.post > article .news table {
+  th,
+  td {
+    padding: 0.3rem 0.5rem;
+    vertical-align: top;
+  }
+
+  th {
+    width: 1%;
+    white-space: nowrap;
+  }
+}
+
 // 4. Profile image on the about page: soften the stock hard corners with a
 //    slightly larger radius and a gentler shadow.
 .profile img {

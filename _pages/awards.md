@@ -11,9 +11,11 @@ nav_order: 2
 
 | Date | Award | Institution |
 |:-----|:------|:------------|
+| 2026.09 | Outstanding Doctoral Dissertation Award | China Computer Federation, Technical Committee on Databases (CCF TCDB) |
 | 2025.06 | Outstanding Graduates of CS Department | Tsinghua University |
 | 2023.10 | National Scholarship | The Chinese Ministry of Education |
 | 2023.06 | ACM SIGMOD 2023 Student Travel Award | ACM |
+| 2023 | Best of SIGMOD 2023 Papers — GoodCore | ACM SIGMOD |
 | 2022.09 | Longfor Scholarship Rising Star Award | Longfor Scholar Foundation |
 | 2022.06 | Siebel Scholar (US\$35,000) | Siebel Scholar Foundation |
 | 2020.06 | Outstanding Graduates of Beijing | Beijing |
